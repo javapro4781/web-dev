@@ -1,3 +1,4 @@
 # web-dev
 
-Hi i am John, i like web development
+Hi 
+i realy have a passsion to learn till i become an expert in web development
