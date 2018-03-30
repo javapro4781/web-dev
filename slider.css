@@ -1,0 +1,390 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+#containerP {
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 0px;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    background: #35424a;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left;
+}
+
+h1 {
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.3em;
+    float: left;
+}
+
+#spanh1 {
+    color: #e8491d;
+}
+
+
+}
+.nav {
+    width: 530px;
+    padding-top: 20px;
+    float: left;
+}
+#nav {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#nav ul li {
+    list-style: none;
+    width: 75px;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    float: left;
+    background: #35424a;
+}
+#nav ul li ul {
+    position: absolute;
+}
+#nav ul li a {
+    color: #fff;
+    width: 75px;
+    height: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+#nav ul li ul {
+    display: none;
+}
+.nav ul li:hover ul {
+    opacity: 1;
+    display: block;
+}
+#nav ul li a:hover {
+    font-weight: bold;
+    border-bottom: 1px solid deepskyblue;
+    color: #fff;
+    font-size: 0.9em;
+    opacity: ;
+    border-radius: 3px;
+}
+#nav ul li ul li a:hover {
+    background: #222;
+    color: #FFC;
+    font-size: 1.2em;
+    opacity: 1;
+}
+#login a{
+    color: #fff;
+    text-decorarion: none;
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+#button2 {
+    float: right;
+    height: 40px;
+    width: 70px;
+    color: #fff;
+    background: deepskyblue;
+    border: none;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+#all{
+    width: 100%;
+    min-height: 450px;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+    width: 60%;
+    float: left;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#contactform{
+    width: 38%;
+    height: 500px;
+    float: right;
+    margin-right: 10px;
+}
+#contactme{
+    background-color: silver;
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#contactme h3{
+    font-weight: 550;
+    padding-top: 10px;
+    text-transform: capitalize;
+    
+}
+#contactform2{
+    width: 100%;
+    min-height: height: 250px;
+    margin-bottom: 50px;
+}
+#contactform2 [type=text], [type=email]{
+    border: 1px solid silver;
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px; 
+    color: #35424a;
+}
+#submit{
+    border: 1px solid silver;
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px; 
+    color: #fff;
+    font-size: 1em;
+}
+#textarea{
+    margin-left: 50px;
+    width: 250px;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#contactimg{
+    width: 100%;
+    height: 100px;
+    margin-left: 30px;
+}
+#contactimg1{
+    width: 50px;
+    height: 50px;
+    background-image: url(thin_fb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    margin-left: 30px;
+}
+#contactimg2{
+    width: 50px;
+    height: 50px;
+    background-image: url(thin_twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    margin-right: 150px;
+}
+#contactimg3{
+    width: 50px;
+    height: 50px;
+    background-image: url(thin_youtube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 110px;
+}
+#contactimg ul li{
+    list-style: none;
+}
+#submit{
+    height: 30px;
+    width: 250px;
+    background: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+#contact{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: dodgerblue;
+    text-align: justify;
+    
+}
+#contactform h4{
+    float: right;
+    font-size: 0.8em;
+    padding-right: 50px;
+    text-align: justify;
+}
+#fafa{
+    margin-top: 20px;
+    float: left;
+}
+#info{
+    width: 100%;
+    min-height: 650px;
+}
+#infoleft{
+    width: 500px;
+    min-height: 600px;
+    float: left;
+}
+#infotitle{
+    height: 20px;
+    width: 100%;
+}
+#infotitle h3{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #35424a;
+    padding-left: 25px;
+    text-transform: capitalize;
+}
+#description{
+    width: 100%;
+    height: 500px;
+}
+#description h4{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.5;
+    padding-left: 20px;
+    text-transform: capitalize;
+    color: #35424a;
+}
+#descspan{
+    font-weight: 600;
+    color: #35424a;
+}
+#inforight{
+    width: 300px;
+    margin-top: 100px;
+    margin-right: 50px;
+    height: 200px;
+    float: right;
+    background-image: url(logo-base.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*styling the footer*/
+.footer {
+    width: ;
+    height: 300px;
+    background: #35424a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 25px;
+    clear: both;
+}
+.footer12 {
+    width:100%;
+    height: 100px;
+    background: #35424a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 25px;
+    clear: both;
+}
+
+.footer12 h4 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+    color: silver;
+    margin-left: 25px;
+}
